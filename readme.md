@@ -1,29 +1,36 @@
-# Heading H1
-## Heading H2
-### Heading H3
+# Example Project
 
-### Lists
-- List Item 1
-- *List Item 2* italics
-- **List Item 3** bold
+Made a package for learning
 
-### Code block
+
+[npm](https://www.npmjs.com/package/@albseb511/exmaple_package)
+
+### Install
 
 ```
-npm install example
+npm i @albseb511/exmaple_package
 ```
+
+
+### Usage
 
 ```js
-var variableName = "abc"
+var sum = require("@albseb511/exmaple_package")
+
+var res = sum(5,10);
+
+
+console.log(res)
+// 15
 ```
 
-### Images
-- Image
-![Masai Logo](https://learn.masaischool.com/img/logo_big.png)
+### API
 
-- Link
-[Masai school](www.masaischool.com)
+```
+function sum(a : number,b: number) => number
+```
 
-## `Highlighted text`
 
-> Quote
+### Maintainers
+
+- [albseb511](https://github.com/albseb511)
